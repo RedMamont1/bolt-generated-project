@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import VoiceRecorder from './components/VoiceRecorder'
 import NotesList from './components/NotesList'
-import QRCodeDisplay from './components/QRCodeDisplay'
 import { FaMicrophone, FaEdit } from 'react-icons/fa'
 
 export default function App() {
@@ -9,7 +8,6 @@ export default function App() {
 
   return (
     <div className="max-w-md mx-auto p-4 min-h-screen bg-white">
-      <QRCodeDisplay />
       <h1 className="text-2xl font-bold text-center mb-6">Voice Notes</h1>
       
       <div className="flex justify-around mb-6">
